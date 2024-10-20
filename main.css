@@ -1,0 +1,42 @@
+h1 {
+    font-size: 2.5em;
+    color: navy;
+}
+
+#main-title {
+    text-align: center;
+}
+
+.description {
+    font-style: italic;
+    color: gray;
+}
+
+.hover-effect:hover {
+    color: green;
+    font-weight: bold;
+}
+
+
+.note::after {
+    content: " - End of note.";
+    font-style: italic;
+    color: lightgray;
+}
+
+.item {
+    margin: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
